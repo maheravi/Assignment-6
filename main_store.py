@@ -156,4 +156,4 @@ while True:
             f = open("database.csv", "w")
             for product in products:
                 f.write(str(product['id']+','+product['name']+','+product['price']+','+product['count']))
-                exit()
+            exit()
